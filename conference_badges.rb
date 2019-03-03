@@ -12,5 +12,5 @@ def assign_rooms(names)
   rooms = (1..7).to_a
   room_list = []
   names.each { |name| room_list << "Hello, #{name}! You'll be assigned to room #{rooms.shift}!" }
-
+  room_list
 end
